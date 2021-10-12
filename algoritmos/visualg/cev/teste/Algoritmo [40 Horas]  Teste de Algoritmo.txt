@@ -1,0 +1,262 @@
+Algoritmo [40 Horas]  Teste de Algoritmo
+
+
+
+
+01
+
+ssinale a alternativa correta sobre as estruturas de controle do tipo laços ou malhas de repetição:
+
+ Laços de repetição são utilizados quando é necessário efetuar a repetição de um trecho de programa um determinado número de vezes.
+ Não existem estruturas de controle do tipo malha de repetição que execute um teste lógico no início do looping.
+ Não existem estruturas de controle do tipo malha de repetição que execute um teste lógico no final do looping.
+ Enquanto..faça é uma estrutura de controle do tipo teste lógico no fim do looping
+ Se.. então é um exemplo de estrutura de controle do tipo laço de repetição
+ 
+ 
+ 
+ ===========
+ 
+ 
+ 02
+ 
+ Observe o fragmento de código abaixo:
+
+X <- 3
+Y <- 4
+Z <- 5 se ((X - 1) > 2) então
+Y <- Y + 1 senão
+  Y <- Y - 1
+fim_se
+Z <- X + Y
+para I de 1 até 8 faça
+  Y <- Y + 1
+fim_para
+Z <- Z + Y
+Ao final da execução desse código, qual o valor de Z?
+
+ 14
+ 15
+ 16
+ 17
+ 18
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ======================================
+ 
+ 03
+ 
+  partir das expressões mencionadas, assinale qual a
+sequência correta de resultados, através dos seguintes
+valores: X=1, A=3, B=5, C=8 e D=7.
+
+- .não. (x>3) e (x<1) e .não. (B>D)
+- .não. (d<0) e (c>5) ou (x>3) ou (c<7) 
+- (x>=3) e .não. (a<3) e (a+b=8) 
+- .não. (d>3) ou .não. (b<7) e .não. (c>b)
+ 
+ n n n
+ 
+ F-V-F-F
+ V-F-V-F  <<<
+ V-V-V-F
+ F-F-V-V
+ F-F-F-F
+ 
+ 
+ 
+ 
+ 
+ ============================
+ 
+ 
+ 04
+ 
+ 
+ 
+ estrutura de dados de iteração na qual uma ação será executada pelo menos uma vez, antes da avaliação da condição, é implementada pelo comando básico:
+
+ se...então
+ enquanto...faça
+ para
+ caso...fim_caso
+ repita...até_que  <<
+ 
+ ===========
+ 
+ ssocie os números aos parênteses, marcando a opção onde aparece a sequência correta:
+
+1 - Desvio condicional simples
+2 - Desvio condicional composto
+3 - Repetição com teste no início
+4 - Repetição com teste no fim
+5 - Repetição com variável de controle
+
+3 ( ) Enquanto.. faça
+1 ( ) Se.. então
+4 ( ) Repita.. até
+5 ( ) Para
+2( ) Se.. então.. senão
+
+
+ 4 2 3 5 1
+ 3 2 4 5 1
+ 3 1 4 2 5  
+ 4 1 3 5 2
+ 3 1 4 5 2 <<
+ 
+ 
+============
+
+05
+
+
+
+
+Considere o trecho de código a seguir:
+
+Funcao operacao (n:Inteiro):Real
+Var x:Real
+inicio
+   Se (n%2 = 0) então
+      x <- n ^ 2
+senão
+x <- n / 2
+FimSe
+   Retorne x
+FimFuncao
+Inicio
+S <- 0
+   Para c <- 1 ate 3 faca
+      S <- S + Operacao(c)
+FimPara
+   Escreva(S)
+Fim
+Qual será o valor final de S?
+
+ 6  <<
+ 4.5
+ 1.5
+ 
+=====
+06
+
+
+Sendo o vetor V e as variáveis X=2 e Y=4, marque a sequência de valores correspondentes à solicitação:
+
+2| 6| 8| 3| 10| 9 |1 |21 |33 |14 
+1| 2| 3| 4| 5 | 6 |7 |8  |9  |10
+
+
+- V [X + Y]
+- V [8 – V[2]]
+- V[V[V[7]]]
+- V [V[1] * V[4]]
+
+ 10, 9, 21, 10
+ 8, 6, 2, 10
+ 9, 6, 6, 9     <<<<
+ 6, 1, 1, 9
+ 9, 8, 7, 6
+ 
+ 
+ ==============
+ 
+ 07
+ 
+ Considere o algoritmo dado:
+
+Inicio
+Lógico: A, B, C;
+Se A Então
+   C1 
+Senão
+   Se B então
+      Se C então
+         C2
+      Senão
+         C3
+         C4
+      Fimse
+   Fimse
+   C5 
+Fimse
+C6 
+Fim
+Se no algoritmo dado, A=falso, B=verdadeiro, C=falso, quais comandos serão executados?
+
+ C3, C4, C5, C6
+ C2, C4, C6
+ C3, C4, C6
+ C1, C2, C3, C4, C5, C6
+ nenhum comando será executado  <<<<<<<<<
+ 
+ 
+ 
+ 
+ ==============
+ 
+ 
+ 08
+ 
+ Interprete o algoritmo e responda qual sequência de números será impressa:
+
+Cont <- 1
+X <- 0
+Enquanto (Cont <= 5) faça
+R <- X * 3
+Escreva(R)
+Cont <- Cont + 1
+X <- X + 1
+FimEnquanto
+ 3 6 9 12
+ 3 6 9 12 15
+ 0 9 12 15 30
+ 0 6 9 12 15
+ 0 3 6 9 12   <<<<<<
+ 
+ 
+ ============
+ 09
+ 
+ 
+ Observe o trecho de código abaixo:
+
+INDICE <- 6
+SOMA <- 0
+K <- 0
+Enquanto (K < INDICE) faça
+  K <- K + 1
+  SOMA <- SOMA + K
+  escreva K
+FimEnquanto
+Escreva SOMA
+Ao final do processamento, a variável SOMA terá o seguinte valor:
+
+ 7
+ 6
+ 28
+ 21
+ 1 2 3 4 5
+ 
+ 
+ ======
+ 10
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+ 
