@@ -1,0 +1,10 @@
+chaves openssh do windows
+%userprofile%
+
+https://docs.microsoft.com/pt-br/windows-server/administration/openssh/openssh_keymanagement
+
+main.tf nova versão
+
+https://learn.hashicorp.com/tutorials/terraform/aws-build
+
+https://www.terraform.io/docs/language/settings/backends/remote.html
