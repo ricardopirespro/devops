@@ -1,0 +1,26 @@
+Cursos finalizados
+
+Ansible_AWX, Galaxy e Vault
+Ansible_Sua infraestrutura como código
+Bizagi_Introdução ao mapeamento de processos com BPMN
+Design Sprint 2.0_Crie produtos digitais rapidamente
+Design Thinking_Viabilizando soluções
+Excel procv_lógica booleana e busca por valores
+Excel_Domine o editor de planilhas
+Excel_tabelas dinâmicas e dashboards
+Funções com Excel_operações matemáticas e filtros
+Fundamentos de Agilidade_seus primeiros passos para a transformação ágil
+Java JRE e JDK_Escreva o seu primeiro código com Eclipse
+Java OO_Introdução à Orientação a Objetos
+Jenkins_Integração contínua
+Linux I_Conhecendo e utilizando o terminal
+Linux II_Programas, processos e pacotes
+Lógica de programação I_Os primeiros programas com Javascript e HTML
+Minecraft_Estruturas lógicas com redstone
+PowerShell parte 1_Começando com a linguagem de scripting moderna
+Scrum_Agilidade em seu projeto
+Terraform_Automatize a infraestrutura na nuvem
+Unity parte 1_Criação de um jogo de sobrevivência à zumbis para Web
+Vagrant e Puppet_Criação e provisionamento de maquinas virtuais
+Vagrant_Gerenciando máquinas virtuais
+Windows_Introdução ao Prompt
