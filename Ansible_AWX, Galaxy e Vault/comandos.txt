@@ -1,3 +1,0 @@
-cp ~/.ssh/id_rsa key/
-
-echo -e "[ansibleserver]\n172.24.146.59\n\n[dbserver]\n172.24.151.223" > hosts
